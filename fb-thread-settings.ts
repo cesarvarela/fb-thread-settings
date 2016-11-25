@@ -1,11 +1,17 @@
 #!/usr/bin/env node
 
 import { FacebookThreadSettings } from './src/FacebookThreadSettings';
+import * as chalk from 'chalk'
+
 let argv = require('minimist')(process.argv);
 
 if (!argv.token) {
-    console.log("Missing token, you must call the script as npm run")
-    console.log("fb-thread-settings -- --token=*FB PAGE TOKEN HERE*")
+    console.log(
+    `
+        ${chalk.bold('Missing token, you must call the script as:')}
+
+        fb-thread-settings --token=*FB PAGE TOKEN HERE* --getstarted --greeting="*TEXT HERE*"
+    `)
 }
 else {
     let fbts = new FacebookThreadSettings(argv.token)

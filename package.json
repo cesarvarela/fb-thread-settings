@@ -1,6 +1,6 @@
 {
   "name": "fb-thread-settings",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "",
   "repository": {
     "url": "https://github.com/cesarvarela/fb-thread-settings"
@@ -14,9 +14,11 @@
   "author": "Cesar Varela",
   "license": "ISC",
   "dependencies": {
+    "@types/chalk": "^0.4.31",
     "@types/node": "^6.0.51",
     "@types/request": "0.0.34",
     "@types/restify": "^2.0.35",
+    "chalk": "^1.1.3",
     "minimist": "^1.2.0",
     "request": "^2.79.0",
     "restify": "^4.3.0",
