@@ -1,6 +1,7 @@
 # Facebook Messenger Platform Thread Settings Helper
 
 Simple helper to ease Thread Settings Configuration
+
 https://developers.facebook.com/docs/messenger-platform/thread-settings
 
 [![NPM Version][npm-image]][npm-url]
@@ -13,16 +14,28 @@ npm install fb-thread-settings -g
 
 ## Options
 
-### greeting (optional)
-Lets you set the greeting text
+### greeting="text" (optional)
+
+Lets you set the greeting text:
+
+https://developers.facebook.com/docs/messenger-platform/thread-settings/greeting-text
+
 
 ### getstarted (optional)
-Enables the get started UI. The postback name is set to `getstarted`  
+
+Enables the get started UI. The postback name is set to `getstarted`
+
+https://developers.facebook.com/docs/messenger-platform/thread-settings/get-started-button  
+
+### menu=[{type: "postback", title: "Menu item titel", payload: "postback value"}]
+
+Lets you set the persistent menu (NOT IMPLEMENTED YET)
+
 
 ## Example Usage
 
 ```
-fb-thread-settings --greeting=\"Your bot greeting text!\" --getstarted
+fb-thread-settings --greeting=\"Your bot greeting text!\" --getstarted --token=*FB PAGE ACCESS TOKEN*
 ```
 
 ## Link the postaback with the Microsoft Bot Framework
