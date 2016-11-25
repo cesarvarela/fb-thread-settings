@@ -2,6 +2,9 @@
   "name": "fb-thread-settings",
   "version": "1.0.0",
   "description": "",
+  "repository": {
+    "url": "https://github.com/cesarvarela/fb-thread-settings"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
