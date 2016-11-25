@@ -1,8 +1,11 @@
+#!/usr/bin/env node
+
 import { FacebookThreadSettings } from './src/FacebookThreadSettings';
 let argv = require('minimist')(process.argv);
 
 if (!argv.token) {
-    console.log("Missing token, you must call the script as npm run fbsetup -- --token=*FB PAGE TOKEN HERE*")
+    console.log("Missing token, you must call the script as npm run")
+    console.log("fb-thread-settings -- --token=*FB PAGE TOKEN HERE*")
 }
 else {
     let fbts = new FacebookThreadSettings(argv.token)
