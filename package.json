@@ -1,0 +1,22 @@
+{
+  "name": "fb-thread-settings",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "fb-thread-settings": "bin/fb-thread-settings.js"
+  },
+  "author": "Cesar Varela",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^6.0.51",
+    "@types/request": "0.0.34",
+    "@types/restify": "^2.0.35",
+    "minimist": "^1.2.0",
+    "request": "^2.79.0",
+    "restify": "^4.3.0",
+    "typescript": "^2.0.10"
+  }
+}
