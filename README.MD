@@ -51,5 +51,5 @@ bot.dialog('/getstarted',
 
 [MIT](http://vjpr.mit-license.org)
 
-[npm-image]: https://img.shields.io/npm/v/live-xxx.svg
+[npm-image]: https://img.shields.io/npm/v/fb-thread-settings.svg
 [npm-url]: https://www.npmjs.com/package/fb-thread-settings
